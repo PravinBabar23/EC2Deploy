@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @GetMapping("/hi")
+    @GetMapping("/home")
     public String home() {
         return "Hello AWS from Spring Boot!";
     }
